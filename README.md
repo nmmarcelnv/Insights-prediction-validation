@@ -21,3 +21,10 @@ recorded and the stock ID. This way, it becomes easy to merge actual and predict
 Then I have a function which scans through the actual dataFrame
 and performs a rolling average of errors with the predicted values (on stock price).
 
+Running the code:
+-----------------
+Instructions on how to run the code can be found in the run.sh file.
+For a simple test, simply perform the following on the command line:
+
+bash run.sh
+

@@ -79,7 +79,6 @@ def compute_rolling_errors(df1, df2, roll_on, target, window_size):
     results = pd.DataFrame(results).T
     results.columns = ['start_hour', 'end_hour', 'error']
 
-    print(results)
     return results
 
 
