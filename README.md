@@ -55,3 +55,21 @@ Comments:
 	* Failed! (Applicant did not create output file.)
 	Executed key tests: 0 out of 1 passed.
 
+3. I successfully tested my Python code on a few test data I made, in addition to the small test example on the Github page. 
+   However, the code failed to past the test when I ran the run_test.sh provided.
+
+   A vimdiff of my comparison.txt file and the comparison.txt file provided by Insights shows only floating point 
+   discrepancies between the two files in some entries. For example, my code gives a result of 0.04 for window 54-57 
+   but the answer given in the test_1/comparison.txt is 0.03 for window 54-57. 
+
+   For this reason, I decided to manually extract window 54-57 from both actual.txt and predicted.txt and used a bash script to find the error. 
+   The answer agrees with my python code (0.04). 
+
+   I was wondering if it's possible that there is a mistake in the results provided in test_1/comparison.txt. 
+
+   Attached is the bash script I used to test windon 54-57. The script can be executed in a directory (say check) located in the same level as insight_testsuite. 
+   (simply do bash check.sh)
+
+Thank you,
+
+Valery Nguemaha 
